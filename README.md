@@ -5,15 +5,15 @@ This guide will help you install the most basic packages and command line tools 
 * Download [iTerm2] (http://iterm2.com/)
 * Install [on-my-zsh] (http://ohmyz.sh/)
 ```bash
-curl -L http://install.ohmyz.sh | sh
+> curl -L http://install.ohmyz.sh | sh
 ```
 * Install [Homebrew] (http://brew.sh/index.html)
 ```bash
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+> ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 * Install [fasd] (https://github.com/clvv/fasd/wiki/Installing-via-Package-Managers) 
 ```bash
-brew install fasd
+> brew install fasd
 ```
 * Add the following to .zshrc file
 ```
